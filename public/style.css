@@ -6,10 +6,14 @@ body {
 }
 
 ul{
-  width: 40%;
+  width: 25%;
   margin: 10px;
   border: black solid 2px;
   padding-left: 0;
+  margin-top: 20px;
+  background: #9E8F94;
+
+
 
 }
 
@@ -17,14 +21,16 @@ ul{
 li {
   list-style-type: none;
   display: run-in;
-  background: #9E8F94;
   text-align: center;
+  padding-bottom: 20px;
+
 }
 
 #cats {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 img {

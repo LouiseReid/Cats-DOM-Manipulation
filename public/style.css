@@ -2,17 +2,22 @@ body {
   font-family: 'Abel', sans-serif;
   color: black;
   font-size: 30px;
+  background-image: url('paw-prints-wallpaper.jpg');
 }
 
 ul{
   width: 40%;
+  margin: 10px;
+  border: black solid 2px;
+  padding-left: 0;
+
 }
 
 
 li {
   list-style-type: none;
   display: run-in;
-  background: #DAFFEF;
+  background: #9E8F94;
   text-align: center;
 }
 
@@ -20,4 +25,10 @@ li {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+  border: black solid 2px;
 }

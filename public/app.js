@@ -32,10 +32,9 @@ var createImage = function(){
   return image;
 }
 
-var createPicture = function(src, width){
+var createPicture = function(src){
   var picture = document.createElement('img');
   picture.src = src
-  picture.width = width
   return picture;
 }
 

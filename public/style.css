@@ -1,0 +1,23 @@
+body {
+  font-family: 'Abel', sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+ul{
+  width: 40%;
+}
+
+
+li {
+  list-style-type: none;
+  display: run-in;
+  background: #DAFFEF;
+  text-align: center;
+}
+
+#cats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
